@@ -1,0 +1,161 @@
+@media(max-width:991px){
+     
+    .btn_join{
+        display: none;
+     }
+     .large_btn_join{
+         display: inherit;
+     }
+     .footer_links ul li a i {
+        height: 35px;
+        width: 35px;
+        padding-bottom: 45px;
+    }
+    .footer_contact h1 {
+        font-size: 20px;
+    }
+    .quick_link h1 {
+        font-size: 20px;
+    }
+    .newsletter h1 {
+        font-size: 20px;
+    }
+    .li_content {
+        margin-left: 25px;
+    }
+    .chart_section img {
+        width: 30%;
+    }
+    .footer_input input {
+        font-size: 12px;
+    }
+    .footer_input i {
+        padding: 13px;
+    }
+
+}
+
+@media(max-width:767px){
+
+    .top_header{
+      display: none;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .navbar-light .navbar-nav .nav-link:hover::before {
+        left: 44%;
+        bottom: -4px;
+        height: 2px;
+        width: 6%;
+    }
+    .navbar-light .navbar-nav .nav-link:hover::after {
+        right: 44%;
+        bottom: -4px;
+        height: 2px;
+        width: 6%;
+    }
+    .iphone6 {
+        display: none;
+    }
+    .instruction_item {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:575px){
+
+    .instruction_item {
+        margin: 15px 0;
+    }
+    .service_item {
+        margin: 15px 0;
+    }
+    .feature_section h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .feature_section span {
+        margin-bottom: 18px;
+        margin: auto;
+    }
+    .box {
+        margin-left: 15px;
+    }
+    .feature_section ul li p {
+        font-size: 15px;
+    }
+    .li_content {
+        padding-left: 15px;
+    }
+    .safe p, .phone p, .wallet p, .experts p, .instant p, .recuring p {
+        font-size: 12px;
+    }
+    .safe {
+        top: 10%;
+        left: 20%;
+        transform: translate(-20%,-10%);
+    }
+    .phone {
+        top: 55%;
+        left: 20%;
+        transform: translate(-20%, -55%);
+    }
+    .wallet {
+        left: 21%;
+        bottom: -15px;
+        transform: translate(-21%, -15px);
+    }
+    .experts {
+        top: 10%;
+        left: 82%;
+        transform: translate(-82%, -10%);
+    }
+    .instant {
+        top: 58%;
+        left: 82%;
+        transform: translate(-82%,-58%);
+    }
+    .recuring {
+        bottom: -15px;
+        left: 82%;
+        transform: translate(-82%,-15px);
+    }
+    .footer_contact {
+        margin-bottom: 18px;
+    }
+    .location, .telephone, .browser{
+        justify-content: start;
+    }
+    .footer_links ul {
+        margin-bottom: 20px;
+    }
+    .footer2_text p {
+        text-align: center;
+    }
+    .footer_link ul {
+        padding: 15px 0px;
+    }
+    .location p, .telephone p, .browser p {
+        font-size: 12px;
+    }
+    .footer_section p {
+        font-size: 15px;
+    }
+    .quick_link ul li {
+        font-size: 15px;
+    }
+    .newsletter p {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:375px){
+
+    .box {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+}
